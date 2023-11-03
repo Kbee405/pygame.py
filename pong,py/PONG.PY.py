@@ -7,7 +7,7 @@ WIDTH, HEIGHT = 700, 500
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Pong")
 
-mixer.music.load("bg.mp3")
+mixer.music.load("pong,py/bg.mp3")
 mixer.music.play(-1)
 
 
@@ -16,7 +16,7 @@ FPS = 60
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 YELLOW = (255,255,0)
-bg = pygame.image.load('bg.png.jpg')
+bg = pygame.image.load('pong,py/bg.png.jpg')
 bg = pygame.transform.scale(bg,(WIDTH,HEIGHT))
 bgrect = bg.get_rect()
 
